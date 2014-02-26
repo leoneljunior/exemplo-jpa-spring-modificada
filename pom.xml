@@ -13,9 +13,15 @@
 		<hibernate.version>4.3.1.Final</hibernate.version>
 		<postgresql.version>9.1-901.jdbc4</postgresql.version>
 		<java.validation.version>1.1.0.Final</java.validation.version>
+		<hibernate-validator.version>4.3.1.Final</hibernate-validator.version>
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>${hibernate-validator.version}</version>
+		</dependency>
 		<dependency>
 			<groupId>javax.validation</groupId>
 			<artifactId>validation-api</artifactId>
